@@ -1,1 +1,116 @@
+.body {
+    background-color: rgb(56, 133, 201);
+    color: rgb(212, 75, 75);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(240, 8, 8);
+}
+
+a:active {
+    color: blue;
+}
+
+.container {
+    width: 80%;
+    margin: 20px;
+}
+
+.box1 {
+    border: 10px rgb(252, 114, 114) solid;
+    background-color: rgb(100, 94, 94);
+    margin: 10px 0;
+    padding: 20px;
+    position: relative; 
+    z-index: 2; 
+}
+
+.box1 h1 {
+    color: beige;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.2em;
+}
+
+.box1 a {
+    cursor: wait;
+    background-color: rgb(76, 13, 224);
+}
+
+.lists {
+    border: 2px dotted black;
+}
+
+.lists h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lists ol {
+    list-style: square;
+    margin-left: 10px;
+}
+
+.myforms {
+    padding: 20px;
+    
+}
+
+.myforms .formsgroup {
+    padding-bottom: 20px;
+}
+
+.myforms input {
+    padding-bottom: 10px;
+    width: 100%;
+   
+    cursor: text;
+}
+
+.myforms label {
+    display: block;
+}
+
+.blockbox {
+    border: 2px dashed black;
+    width: 33.3%;
+    margin: auto;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.fixme {
+    position: fixed;
+    background-color: rgb(23, 164, 219);
+    color: antiquewhite;
+    top: 70px;
+    cursor: help;
+    z-index: 3; 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(4, 203, 218, 0.062);
+    color: rgb(202, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; 
+}
+
 
